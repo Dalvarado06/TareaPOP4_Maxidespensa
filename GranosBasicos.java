@@ -12,7 +12,7 @@ package tarea.pkg4.pop_12011159;
 public class GranosBasicos {
     
     private String nombre;
-    private int cantidad;
+    private double cantidad;
     private double precio;
     private String unidadMedida;
     private String procedencia;
@@ -39,11 +39,11 @@ public class GranosBasicos {
         return nombre;
     }
     
-    public void setCantidad(int cantidad){
+    public void setCantidad(double cantidad){
         this.cantidad = cantidad;
     }
     
-    public int getCantidad(){
+    public double getCantidad(){
         return cantidad;
     }
     
