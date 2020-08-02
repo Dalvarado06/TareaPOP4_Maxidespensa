@@ -54,6 +54,6 @@ public class Frutas_Verduras {
     
     @Override
     public String toString(){
-        return "Categoria: "+categoria+" Precio: "+precio;
+        return "-> Categoria: "+categoria+" -> Precio: "+precio;
     }
 }

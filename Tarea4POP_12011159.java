@@ -26,7 +26,7 @@ public class Tarea4POP_12011159 {
 
     public static void main(String[] args) throws ParseException {
 
-        //Declaracion de arraylists
+        
         int opcion = 0;
 
         while (opcion != 5) {
@@ -209,6 +209,7 @@ public class Tarea4POP_12011159 {
 
                 case 4:
                     System.out.println("-> Reporte de inventario");
+                    System.out.println();
                     
                     System.out.println("-> Granos Basicos");
                     for (GranosBasicos g : granos) {
@@ -350,8 +351,9 @@ public class Tarea4POP_12011159 {
             if (rev) {
                 check = true;
             } else {
-                System.out.println("Ingrese otro codigo: ");
+                System.out.println("-> Ingrese otro codigo: ");
                 codigo = sc.next();
+                System.out.println();
                 check = false;
             }
         }
@@ -460,7 +462,7 @@ public class Tarea4POP_12011159 {
         System.out.println("3) Grande");
         int o = sc.nextInt();
 
-        while (o < 3 || o < 1) {
+        while (o > 3 || o < 1) {
             System.out.println("-> Ingrese una opcion correcta!");
             o = sc.nextInt();
             System.out.println();
@@ -535,6 +537,7 @@ public class Tarea4POP_12011159 {
         System.out.println("2) Carne blanca");
         System.out.println("3) Cerdo");
         int eleccion = sc.nextInt();
+        System.out.println();
 
         while (eleccion > 3 || eleccion < 1) {
             System.out.println("Ingrese una opcion correcta!");
@@ -917,6 +920,8 @@ public class Tarea4POP_12011159 {
                 String nombre = sc.nextLine();
 
                 limpieza.get(posicion).setNombre(nombre);
+                
+                System.out.println("El nombre se ha modificado correctamente");
                 break;
 
             default:

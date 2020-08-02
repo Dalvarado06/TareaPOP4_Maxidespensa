@@ -63,7 +63,7 @@ public class Carnes_embutidos {
     
     @Override
     public String toString(){
-        return "Tipo: "+tipo+" Cantidad: "+cantidad;
+        return "-> Tipo: "+tipo+" -> Cantidad: "+cantidad;
     }
     
 }

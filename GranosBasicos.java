@@ -73,7 +73,7 @@ public class GranosBasicos {
     
     @Override
     public String toString(){
-        return "Nombre: "+nombre+" Cantidad: "+cantidad;
+        return "-> Nombre: "+nombre+" -> Cantidad: "+cantidad;
     }
     
 }

@@ -82,6 +82,6 @@ public class Liquidos {
    
    @Override
    public String toString(){
-       return "Nombre: "+nombre+" Fecha de Vencimiento: "+fechaVencimiento;
+       return "-> Nombre: "+nombre+" -> Fecha de Vencimiento: "+fechaVencimiento;
    }
 }

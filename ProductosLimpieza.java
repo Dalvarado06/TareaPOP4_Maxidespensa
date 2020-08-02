@@ -96,6 +96,6 @@ public class ProductosLimpieza {
     
     @Override
     public String toString(){
-        return "Nombre: "+nombre+" Codigo: "+codigo;
+        return "-> Nombre: "+nombre+" -> Codigo: "+codigo;
     }
 }
